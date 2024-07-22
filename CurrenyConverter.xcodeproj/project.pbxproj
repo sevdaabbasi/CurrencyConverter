@@ -17,6 +17,8 @@
 		6DD8694F2C4A826A0018F201 /* CurrenyConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD8694E2C4A826A0018F201 /* CurrenyConverterUITests.swift */; };
 		6DD869512C4A826A0018F201 /* CurrenyConverterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD869502C4A826A0018F201 /* CurrenyConverterUITestsLaunchTests.swift */; };
 		6DD8695E2C4A87FF0018F201 /* countrySelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD8695D2C4A87FE0018F201 /* countrySelection.swift */; };
+		6DD869602C4AB40B0018F201 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD8695F2C4AB40B0018F201 /* Currency.swift */; };
+		6DD869622C4ABCB10018F201 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD869612C4ABCB10018F201 /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		6DD8694E2C4A826A0018F201 /* CurrenyConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenyConverterUITests.swift; sourceTree = "<group>"; };
 		6DD869502C4A826A0018F201 /* CurrenyConverterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenyConverterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6DD8695D2C4A87FE0018F201 /* countrySelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countrySelection.swift; sourceTree = "<group>"; };
+		6DD8695F2C4AB40B0018F201 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		6DD869612C4ABCB10018F201 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				6DD869362C4A826A0018F201 /* Assets.xcassets */,
 				6DD869382C4A826A0018F201 /* LaunchScreen.storyboard */,
 				6DD8693B2C4A826A0018F201 /* Info.plist */,
+				6DD8695F2C4AB40B0018F201 /* Currency.swift */,
+				6DD869612C4ABCB10018F201 /* RoundButton.swift */,
 			);
 			path = CurrenyConverter;
 			sourceTree = "<group>";
@@ -261,7 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DD869622C4ABCB10018F201 /* RoundButton.swift in Sources */,
 				6DD869322C4A82680018F201 /* ViewController.swift in Sources */,
+				6DD869602C4AB40B0018F201 /* Currency.swift in Sources */,
 				6DD8692E2C4A82680018F201 /* AppDelegate.swift in Sources */,
 				6DD869302C4A82680018F201 /* SceneDelegate.swift in Sources */,
 				6DD8695E2C4A87FF0018F201 /* countrySelection.swift in Sources */,

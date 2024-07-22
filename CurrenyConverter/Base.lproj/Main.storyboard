@@ -17,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K4E-wj-8BH">
-                                <rect key="frame" x="0.0" y="59" width="393" height="75"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K4E-wj-8BH">
+                                <rect key="frame" x="119" y="50" width="274" height="75"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="75" id="wiK-YX-hJf"/>
                                 </constraints>
@@ -26,8 +26,8 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="abJ-d5-e1S">
-                                <rect key="frame" x="0.0" y="132" width="393" height="75"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="abJ-d5-e1S">
+                                <rect key="frame" x="119" y="132" width="274" height="75"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="75" id="EgO-6b-maQ"/>
                                 </constraints>
@@ -36,10 +36,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FJF-cv-vmj">
-                                <rect key="frame" x="0.0" y="178" width="393" height="102"/>
+                                <rect key="frame" x="0.0" y="278" width="393" height="102"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cpf-fe-lmy">
-                                        <rect key="frame" x="0.0" y="0.0" width="75" height="85"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cpf-fe-lmy" customClass="RoundButton" customModule="CurrenyConverter" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
                                         <color key="backgroundColor" systemColor="systemGray4Color"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -47,9 +47,12 @@
                                             <color key="titleColor" red="0.10588235294117647" green="0.14901960784313725" blue="0.2196078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="titleShadowColor" systemColor="systemGray2Color"/>
                                         </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0At-gp-aa4">
-                                        <rect key="frame" x="83" y="0.0" width="75" height="85"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0At-gp-aa4" customClass="RoundButton" customModule="CurrenyConverter" customModuleProvider="target">
+                                        <rect key="frame" x="83" y="0.0" width="75" height="75"/>
                                         <color key="backgroundColor" systemColor="systemGray4Color"/>
                                         <color key="tintColor" red="0.1058823529" green="0.14901960780000001" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -57,9 +60,12 @@
                                             <color key="titleColor" red="0.1058823529" green="0.14901960780000001" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <imageReference key="image" image="arrowshape.left.fill" catalog="system" symbolScale="large"/>
                                         </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yKa-AW-YqV">
-                                        <rect key="frame" x="175" y="0.0" width="75" height="85"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yKa-AW-YqV" customClass="RoundButton" customModule="CurrenyConverter" customModuleProvider="target">
+                                        <rect key="frame" x="175" y="0.0" width="75" height="75"/>
                                         <color key="backgroundColor" systemColor="systemGray4Color"/>
                                         <color key="tintColor" red="0.1058823529" green="0.14901960780000001" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -67,9 +73,12 @@
                                             <color key="titleColor" red="0.1176470588" green="0.22352941179999999" blue="0.40784313729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <imageReference key="image" image="arrow.up.arrow.down" catalog="system" symbolScale="large"/>
                                         </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gcN-EQ-LDH">
-                                        <rect key="frame" x="278" y="0.0" width="75" height="85"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gcN-EQ-LDH" customClass="RoundButton" customModule="CurrenyConverter" customModuleProvider="target">
+                                        <rect key="frame" x="278" y="0.0" width="75" height="75"/>
                                         <color key="backgroundColor" red="0.99064625849999999" green="0.62000143809999997" blue="0.27859268710000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="tintColor" red="0.1058823529" green="0.14901960780000001" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -78,6 +87,9 @@
                                             <color key="titleColor" red="0.1058823529" green="0.14901960780000001" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <imageReference key="image" image="divide" catalog="system" symbolScale="large"/>
                                         </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -89,7 +101,7 @@
                                     <constraint firstItem="cpf-fe-lmy" firstAttribute="top" secondItem="FJF-cv-vmj" secondAttribute="top" id="G6x-uO-GPN"/>
                                     <constraint firstItem="gcN-EQ-LDH" firstAttribute="width" secondItem="yKa-AW-YqV" secondAttribute="width" id="PD2-HD-l2w"/>
                                     <constraint firstItem="yKa-AW-YqV" firstAttribute="leading" secondItem="0At-gp-aa4" secondAttribute="trailing" constant="1" id="Qvf-Tl-6wS"/>
-                                    <constraint firstAttribute="height" constant="110" id="ZDi-jK-5Ey"/>
+                                    <constraint firstAttribute="height" constant="120" id="ZDi-jK-5Ey"/>
                                     <constraint firstItem="gcN-EQ-LDH" firstAttribute="bottom" secondItem="yKa-AW-YqV" secondAttribute="bottom" id="b9L-kT-PW3"/>
                                     <constraint firstItem="0At-gp-aa4" firstAttribute="top" secondItem="cpf-fe-lmy" secondAttribute="top" id="bnb-7p-Ohf"/>
                                     <constraint firstAttribute="trailing" secondItem="gcN-EQ-LDH" secondAttribute="trailing" constant="1" id="dAP-2N-7b4"/>
@@ -101,11 +113,11 @@
                                     <constraint firstItem="yKa-AW-YqV" firstAttribute="bottom" secondItem="0At-gp-aa4" secondAttribute="bottom" id="zeW-UJ-WhZ"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UkC-gb-GVV">
-                                <rect key="frame" x="0.0" y="432" width="393" height="110"/>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UkC-gb-GVV">
+                                <rect key="frame" x="0.0" y="512" width="393" height="100"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kZC-6E-N0p">
-                                        <rect key="frame" x="0.0" y="0.0" width="75" height="85"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kZC-6E-N0p" customClass="RoundButton" customModule="CurrenyConverter" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
                                         <color key="backgroundColor" systemColor="systemGray4Color"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -113,27 +125,36 @@
                                             <color key="titleColor" red="0.1058823529" green="0.14901960780000001" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="titleShadowColor" systemColor="systemGray2Color"/>
                                         </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="War-x2-kgK">
-                                        <rect key="frame" x="83" y="0.0" width="75" height="85"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="War-x2-kgK" customClass="RoundButton" customModule="CurrenyConverter" customModuleProvider="target">
+                                        <rect key="frame" x="83" y="0.0" width="75" height="75"/>
                                         <color key="backgroundColor" systemColor="systemGray4Color"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="5">
                                             <color key="titleColor" red="0.1058823529" green="0.14901960780000001" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FMA-HX-Ebw">
-                                        <rect key="frame" x="173" y="0.0" width="75" height="85"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FMA-HX-Ebw" customClass="RoundButton" customModule="CurrenyConverter" customModuleProvider="target">
+                                        <rect key="frame" x="173" y="0.0" width="75" height="75"/>
                                         <color key="backgroundColor" systemColor="systemGray4Color"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="6">
                                             <color key="titleColor" red="0.1058823529" green="0.14901960780000001" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UTK-1M-QrX">
-                                        <rect key="frame" x="273" y="8" width="75" height="85"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UTK-1M-QrX" customClass="RoundButton" customModule="CurrenyConverter" customModuleProvider="target">
+                                        <rect key="frame" x="273" y="8" width="75" height="75"/>
                                         <color key="backgroundColor" red="0.99064625849999999" green="0.62000143809999997" blue="0.27859268710000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="tintColor" red="0.1176470588" green="0.22352941179999999" blue="0.40784313729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -141,13 +162,16 @@
                                             <color key="titleColor" red="0.1058823529" green="0.14901960780000001" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <imageReference key="image" image="minus" catalog="system" symbolScale="large"/>
                                         </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="110" id="19l-Yy-o8d"/>
-                                    <constraint firstItem="War-x2-kgK" firstAttribute="width" secondItem="kZC-6E-N0p" secondAttribute="width" id="2hS-m2-FhE"/>
-                                    <constraint firstItem="UTK-1M-QrX" firstAttribute="width" secondItem="FMA-HX-Ebw" secondAttribute="width" id="BZo-MA-juf"/>
+                                    <constraint firstAttribute="height" constant="120" id="19l-Yy-o8d"/>
+                                    <constraint firstItem="War-x2-kgK" firstAttribute="width" secondItem="kZC-6E-N0p" secondAttribute="width" constant="1" id="2hS-m2-FhE"/>
+                                    <constraint firstItem="UTK-1M-QrX" firstAttribute="width" secondItem="FMA-HX-Ebw" secondAttribute="width" constant="1" id="BZo-MA-juf"/>
                                     <constraint firstItem="FMA-HX-Ebw" firstAttribute="leading" secondItem="War-x2-kgK" secondAttribute="trailing" constant="1" id="CGU-iZ-UJn"/>
                                     <constraint firstItem="FMA-HX-Ebw" firstAttribute="bottom" secondItem="War-x2-kgK" secondAttribute="bottom" id="EYC-e4-gpq"/>
                                     <constraint firstItem="FMA-HX-Ebw" firstAttribute="top" secondItem="War-x2-kgK" secondAttribute="top" id="Ep5-TZ-Imo"/>
@@ -155,7 +179,7 @@
                                     <constraint firstItem="kZC-6E-N0p" firstAttribute="top" secondItem="UkC-gb-GVV" secondAttribute="top" id="Q1c-QB-MbU"/>
                                     <constraint firstItem="UTK-1M-QrX" firstAttribute="bottom" secondItem="FMA-HX-Ebw" secondAttribute="bottom" id="Z31-dr-vgq"/>
                                     <constraint firstItem="War-x2-kgK" firstAttribute="leading" secondItem="kZC-6E-N0p" secondAttribute="trailing" constant="1" id="bDY-vt-SB2"/>
-                                    <constraint firstItem="FMA-HX-Ebw" firstAttribute="width" secondItem="War-x2-kgK" secondAttribute="width" id="bfl-ka-Uyp"/>
+                                    <constraint firstItem="FMA-HX-Ebw" firstAttribute="width" secondItem="War-x2-kgK" secondAttribute="width" constant="1" id="bfl-ka-Uyp"/>
                                     <constraint firstItem="War-x2-kgK" firstAttribute="top" secondItem="kZC-6E-N0p" secondAttribute="top" id="c4j-lp-7xh"/>
                                     <constraint firstItem="kZC-6E-N0p" firstAttribute="leading" secondItem="UkC-gb-GVV" secondAttribute="leading" id="qMx-Aj-Cgm"/>
                                     <constraint firstItem="War-x2-kgK" firstAttribute="bottom" secondItem="kZC-6E-N0p" secondAttribute="bottom" id="sop-ht-2pL"/>
@@ -164,11 +188,11 @@
                                     <constraint firstItem="UTK-1M-QrX" firstAttribute="top" secondItem="FMA-HX-Ebw" secondAttribute="top" id="zyn-vy-abI"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kGf-ed-N9b">
-                                <rect key="frame" x="0.0" y="544" width="393" height="110"/>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kGf-ed-N9b">
+                                <rect key="frame" x="0.0" y="614" width="393" height="100"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Md0-Iv-noo">
-                                        <rect key="frame" x="0.0" y="0.0" width="75" height="85"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Md0-Iv-noo" customClass="RoundButton" customModule="CurrenyConverter" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
                                         <color key="backgroundColor" systemColor="systemGray4Color"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -176,61 +200,73 @@
                                             <color key="titleColor" red="0.1058823529" green="0.14901960780000001" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="titleShadowColor" systemColor="systemGray2Color"/>
                                         </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jnF-Dz-kY7">
-                                        <rect key="frame" x="83" y="0.0" width="75" height="85"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jnF-Dz-kY7" customClass="RoundButton" customModule="CurrenyConverter" customModuleProvider="target">
+                                        <rect key="frame" x="83" y="0.0" width="75" height="75"/>
                                         <color key="backgroundColor" systemColor="systemGray4Color"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="8">
                                             <color key="titleColor" red="0.1058823529" green="0.14901960780000001" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uOx-0T-ZiM">
-                                        <rect key="frame" x="173" y="0.0" width="75" height="85"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uOx-0T-ZiM" customClass="RoundButton" customModule="CurrenyConverter" customModuleProvider="target">
+                                        <rect key="frame" x="173" y="0.0" width="75" height="75"/>
                                         <color key="backgroundColor" systemColor="systemGray4Color"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="9">
                                             <color key="titleColor" red="0.1058823529" green="0.14901960780000001" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aZR-DV-J6R">
-                                        <rect key="frame" x="278" y="8" width="75" height="85"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aZR-DV-J6R" customClass="RoundButton" customModule="CurrenyConverter" customModuleProvider="target">
+                                        <rect key="frame" x="278" y="8" width="75" height="75"/>
                                         <color key="backgroundColor" red="0.99064625849999999" green="0.62000143809999997" blue="0.27859268710000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="tintColor" red="0.1176470588" green="0.22352941179999999" blue="0.40784313729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" image="plus" catalog="system">
                                             <color key="titleColor" red="0.1058823529" green="0.14901960780000001" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="uOx-0T-ZiM" firstAttribute="width" secondItem="jnF-Dz-kY7" secondAttribute="width" id="4h2-AT-hQ4"/>
+                                    <constraint firstItem="uOx-0T-ZiM" firstAttribute="width" secondItem="jnF-Dz-kY7" secondAttribute="width" constant="1" id="4h2-AT-hQ4"/>
                                     <constraint firstItem="jnF-Dz-kY7" firstAttribute="leading" secondItem="Md0-Iv-noo" secondAttribute="trailing" constant="1" id="AxL-T5-IDI"/>
                                     <constraint firstItem="aZR-DV-J6R" firstAttribute="bottom" secondItem="uOx-0T-ZiM" secondAttribute="bottom" id="B5x-FX-4kE"/>
                                     <constraint firstItem="jnF-Dz-kY7" firstAttribute="bottom" secondItem="Md0-Iv-noo" secondAttribute="bottom" id="BUs-d4-p3e"/>
-                                    <constraint firstItem="jnF-Dz-kY7" firstAttribute="width" secondItem="Md0-Iv-noo" secondAttribute="width" id="E3L-sq-35H"/>
+                                    <constraint firstItem="jnF-Dz-kY7" firstAttribute="width" secondItem="Md0-Iv-noo" secondAttribute="width" constant="1" id="E3L-sq-35H"/>
                                     <constraint firstAttribute="trailing" secondItem="aZR-DV-J6R" secondAttribute="trailing" constant="1" id="OBC-cI-wX7"/>
                                     <constraint firstItem="Md0-Iv-noo" firstAttribute="leading" secondItem="kGf-ed-N9b" secondAttribute="leading" id="R5f-iO-KaC"/>
                                     <constraint firstItem="uOx-0T-ZiM" firstAttribute="leading" secondItem="jnF-Dz-kY7" secondAttribute="trailing" constant="1" id="UdS-Mk-3Mh"/>
                                     <constraint firstAttribute="bottom" secondItem="Md0-Iv-noo" secondAttribute="bottom" id="WEx-OF-yge"/>
                                     <constraint firstItem="aZR-DV-J6R" firstAttribute="leading" secondItem="uOx-0T-ZiM" secondAttribute="trailing" constant="1" id="ge3-mi-BCA"/>
-                                    <constraint firstAttribute="height" constant="110" id="gtP-l7-FCg"/>
+                                    <constraint firstAttribute="height" constant="120" id="gtP-l7-FCg"/>
                                     <constraint firstItem="Md0-Iv-noo" firstAttribute="top" secondItem="kGf-ed-N9b" secondAttribute="top" id="jer-Xw-0hp"/>
                                     <constraint firstItem="uOx-0T-ZiM" firstAttribute="bottom" secondItem="jnF-Dz-kY7" secondAttribute="bottom" id="orW-W6-y26"/>
-                                    <constraint firstItem="aZR-DV-J6R" firstAttribute="width" secondItem="uOx-0T-ZiM" secondAttribute="width" id="qAw-wF-fEB"/>
+                                    <constraint firstItem="aZR-DV-J6R" firstAttribute="width" secondItem="uOx-0T-ZiM" secondAttribute="width" constant="1" id="qAw-wF-fEB"/>
                                     <constraint firstItem="uOx-0T-ZiM" firstAttribute="top" secondItem="jnF-Dz-kY7" secondAttribute="top" id="sk3-9O-NPe"/>
                                     <constraint firstItem="jnF-Dz-kY7" firstAttribute="top" secondItem="Md0-Iv-noo" secondAttribute="top" id="tUU-UQ-WPN"/>
                                     <constraint firstItem="aZR-DV-J6R" firstAttribute="top" secondItem="uOx-0T-ZiM" secondAttribute="top" id="tUw-cI-JF2"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yfk-8H-o9J">
-                                <rect key="frame" x="0.0" y="320" width="393" height="110"/>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yfk-8H-o9J">
+                                <rect key="frame" x="0.0" y="410" width="393" height="100"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ob-2J-GQA">
-                                        <rect key="frame" x="0.0" y="0.0" width="75" height="85"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ob-2J-GQA" customClass="RoundButton" customModule="CurrenyConverter" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
                                         <color key="backgroundColor" systemColor="systemGray4Color"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <color key="tintColor" red="0.1058823529" green="0.14901960780000001" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -239,27 +275,36 @@
                                             <color key="titleColor" red="0.1058823529" green="0.14901960780000001" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="titleShadowColor" systemColor="systemGray2Color"/>
                                         </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F6r-80-jWW">
-                                        <rect key="frame" x="83" y="0.0" width="75" height="85"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F6r-80-jWW" customClass="RoundButton" customModule="CurrenyConverter" customModuleProvider="target">
+                                        <rect key="frame" x="83" y="0.0" width="75" height="75"/>
                                         <color key="backgroundColor" systemColor="systemGray4Color"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="2">
                                             <color key="titleColor" red="0.1058823529" green="0.14901960780000001" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fsQ-zT-QQD">
-                                        <rect key="frame" x="173" y="0.0" width="75" height="85"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fsQ-zT-QQD" customClass="RoundButton" customModule="CurrenyConverter" customModuleProvider="target">
+                                        <rect key="frame" x="173" y="0.0" width="75" height="75"/>
                                         <color key="backgroundColor" systemColor="systemGray4Color"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="3">
                                             <color key="titleColor" red="0.1058823529" green="0.14901960780000001" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Smr-ym-1qO">
-                                        <rect key="frame" x="274" y="13" width="75" height="85"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Smr-ym-1qO" customClass="RoundButton" customModule="CurrenyConverter" customModuleProvider="target">
+                                        <rect key="frame" x="274" y="13" width="75" height="75"/>
                                         <color key="backgroundColor" red="0.99064625849999999" green="0.62000143809999997" blue="0.27859268710000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="tintColor" red="0.1176470588" green="0.22352941179999999" blue="0.40784313729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -267,19 +312,22 @@
                                             <color key="titleColor" red="0.1058823529" green="0.14901960780000001" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <imageReference key="image" image="multiply" catalog="system" symbolScale="large"/>
                                         </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="2ob-2J-GQA" firstAttribute="leading" secondItem="Yfk-8H-o9J" secondAttribute="leading" id="1XN-OX-1PR"/>
-                                    <constraint firstItem="Smr-ym-1qO" firstAttribute="width" secondItem="fsQ-zT-QQD" secondAttribute="width" id="1Y9-Qu-PtX"/>
+                                    <constraint firstItem="Smr-ym-1qO" firstAttribute="width" secondItem="fsQ-zT-QQD" secondAttribute="width" constant="1" id="1Y9-Qu-PtX"/>
                                     <constraint firstItem="fsQ-zT-QQD" firstAttribute="leading" secondItem="F6r-80-jWW" secondAttribute="trailing" constant="1" id="CLH-xL-lb4"/>
                                     <constraint firstAttribute="bottom" secondItem="2ob-2J-GQA" secondAttribute="bottom" id="Gsn-jd-SCm"/>
                                     <constraint firstItem="fsQ-zT-QQD" firstAttribute="bottom" secondItem="F6r-80-jWW" secondAttribute="bottom" id="JXA-7C-4p8"/>
                                     <constraint firstItem="F6r-80-jWW" firstAttribute="top" secondItem="2ob-2J-GQA" secondAttribute="top" id="Jnh-0S-jRr"/>
                                     <constraint firstItem="Smr-ym-1qO" firstAttribute="leading" secondItem="fsQ-zT-QQD" secondAttribute="trailing" constant="1" id="N0B-vd-aPP"/>
-                                    <constraint firstAttribute="height" constant="110" id="Q0u-gb-bb2"/>
-                                    <constraint firstItem="fsQ-zT-QQD" firstAttribute="width" secondItem="F6r-80-jWW" secondAttribute="width" id="RBE-cf-lwh"/>
+                                    <constraint firstAttribute="height" constant="120" id="Q0u-gb-bb2"/>
+                                    <constraint firstItem="fsQ-zT-QQD" firstAttribute="width" secondItem="F6r-80-jWW" secondAttribute="width" constant="1" id="RBE-cf-lwh"/>
                                     <constraint firstItem="fsQ-zT-QQD" firstAttribute="top" secondItem="F6r-80-jWW" secondAttribute="top" id="TkJ-2s-cWJ"/>
                                     <constraint firstItem="Smr-ym-1qO" firstAttribute="bottom" secondItem="fsQ-zT-QQD" secondAttribute="bottom" id="ZOT-PI-lda"/>
                                     <constraint firstItem="Smr-ym-1qO" firstAttribute="top" secondItem="fsQ-zT-QQD" secondAttribute="top" id="ZPr-rS-iyR"/>
@@ -287,14 +335,14 @@
                                     <constraint firstItem="F6r-80-jWW" firstAttribute="leading" secondItem="2ob-2J-GQA" secondAttribute="trailing" constant="1" id="Zy3-I8-dTA"/>
                                     <constraint firstAttribute="trailing" secondItem="Smr-ym-1qO" secondAttribute="trailing" constant="1" id="jeb-dO-H3O"/>
                                     <constraint firstItem="2ob-2J-GQA" firstAttribute="top" secondItem="Yfk-8H-o9J" secondAttribute="top" id="utX-UN-jg3"/>
-                                    <constraint firstItem="F6r-80-jWW" firstAttribute="width" secondItem="2ob-2J-GQA" secondAttribute="width" id="uy6-17-yrC"/>
+                                    <constraint firstItem="F6r-80-jWW" firstAttribute="width" secondItem="2ob-2J-GQA" secondAttribute="width" constant="1" id="uy6-17-yrC"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eIi-20-cVr">
-                                <rect key="frame" x="0.0" y="656" width="393" height="110"/>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eIi-20-cVr">
+                                <rect key="frame" x="0.0" y="716" width="393" height="100"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EU2-V7-d0o">
-                                        <rect key="frame" x="0.0" y="0.0" width="75" height="85"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EU2-V7-d0o" customClass="RoundButton" customModule="CurrenyConverter" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
                                         <color key="backgroundColor" systemColor="systemGray4Color"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -302,18 +350,24 @@
                                             <color key="titleColor" red="0.1058823529" green="0.14901960780000001" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <color key="titleShadowColor" systemColor="systemGray2Color"/>
                                         </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lho-mB-ZrA">
-                                        <rect key="frame" x="83" y="0.0" width="75" height="85"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lho-mB-ZrA" customClass="RoundButton" customModule="CurrenyConverter" customModuleProvider="target">
+                                        <rect key="frame" x="83" y="0.0" width="75" height="75"/>
                                         <color key="backgroundColor" systemColor="systemGray4Color"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title=",">
                                             <color key="titleColor" red="0.1058823529" green="0.14901960780000001" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cvs-HP-Ogf">
-                                        <rect key="frame" x="287" y="0.0" width="75" height="85"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cvs-HP-Ogf" customClass="RoundButton" customModule="CurrenyConverter" customModuleProvider="target">
+                                        <rect key="frame" x="287" y="0.0" width="75" height="75"/>
                                         <color key="backgroundColor" red="0.99064625849999999" green="0.62000143809999997" blue="0.27859268710000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="tintColor" red="0.1176470588" green="0.22352941179999999" blue="0.40784313729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -321,9 +375,12 @@
                                             <color key="titleColor" red="0.1058823529" green="0.14901960780000001" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <imageReference key="image" image="equal" catalog="system" symbolScale="large"/>
                                         </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X7u-uh-5zw">
-                                        <rect key="frame" x="187" y="0.0" width="75" height="85"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X7u-uh-5zw" customClass="RoundButton" customModule="CurrenyConverter" customModuleProvider="target">
+                                        <rect key="frame" x="187" y="0.0" width="75" height="75"/>
                                         <color key="backgroundColor" systemColor="systemGray4Color"/>
                                         <color key="tintColor" red="0.1176470588" green="0.22352941179999999" blue="0.40784313729999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -331,29 +388,50 @@
                                             <color key="titleColor" red="0.1058823529" green="0.14901960780000001" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <imageReference key="image" image="percent" catalog="system" symbolScale="large"/>
                                         </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="lho-mB-ZrA" firstAttribute="bottom" secondItem="EU2-V7-d0o" secondAttribute="bottom" id="0fl-hc-cTv"/>
                                     <constraint firstItem="X7u-uh-5zw" firstAttribute="leading" secondItem="lho-mB-ZrA" secondAttribute="trailing" constant="1" id="6OG-rW-3WZ"/>
-                                    <constraint firstItem="Cvs-HP-Ogf" firstAttribute="width" secondItem="X7u-uh-5zw" secondAttribute="width" id="ACM-3Y-MwI"/>
+                                    <constraint firstItem="Cvs-HP-Ogf" firstAttribute="width" secondItem="X7u-uh-5zw" secondAttribute="width" constant="6" id="ACM-3Y-MwI"/>
                                     <constraint firstItem="lho-mB-ZrA" firstAttribute="leading" secondItem="EU2-V7-d0o" secondAttribute="trailing" constant="1" id="Fg5-ao-RJz"/>
                                     <constraint firstItem="X7u-uh-5zw" firstAttribute="top" secondItem="lho-mB-ZrA" secondAttribute="top" id="G2G-7x-6m4"/>
                                     <constraint firstItem="EU2-V7-d0o" firstAttribute="leading" secondItem="eIi-20-cVr" secondAttribute="leading" id="HaW-9h-Adr"/>
                                     <constraint firstAttribute="bottom" secondItem="EU2-V7-d0o" secondAttribute="bottom" id="KdK-6q-eX4"/>
                                     <constraint firstItem="X7u-uh-5zw" firstAttribute="bottom" secondItem="lho-mB-ZrA" secondAttribute="bottom" id="Mzp-al-Jda"/>
                                     <constraint firstItem="Cvs-HP-Ogf" firstAttribute="bottom" secondItem="X7u-uh-5zw" secondAttribute="bottom" id="NoA-dB-s76"/>
-                                    <constraint firstItem="X7u-uh-5zw" firstAttribute="width" secondItem="lho-mB-ZrA" secondAttribute="width" id="Q9z-oX-irz"/>
-                                    <constraint firstItem="lho-mB-ZrA" firstAttribute="width" secondItem="EU2-V7-d0o" secondAttribute="width" id="UGq-WM-MWO"/>
+                                    <constraint firstItem="X7u-uh-5zw" firstAttribute="width" secondItem="lho-mB-ZrA" secondAttribute="width" constant="1" id="Q9z-oX-irz"/>
+                                    <constraint firstItem="lho-mB-ZrA" firstAttribute="width" secondItem="EU2-V7-d0o" secondAttribute="width" constant="1" id="UGq-WM-MWO"/>
                                     <constraint firstItem="Cvs-HP-Ogf" firstAttribute="leading" secondItem="X7u-uh-5zw" secondAttribute="trailing" constant="1" id="Y3w-CU-mIG"/>
                                     <constraint firstItem="lho-mB-ZrA" firstAttribute="top" secondItem="EU2-V7-d0o" secondAttribute="top" id="bks-zF-UDJ"/>
-                                    <constraint firstAttribute="height" constant="110" id="dq6-oM-WJ0"/>
+                                    <constraint firstAttribute="height" constant="120" id="dq6-oM-WJ0"/>
                                     <constraint firstItem="EU2-V7-d0o" firstAttribute="top" secondItem="eIi-20-cVr" secondAttribute="top" id="ix9-I1-HIK"/>
                                     <constraint firstAttribute="trailing" secondItem="Cvs-HP-Ogf" secondAttribute="trailing" constant="1" id="tEJ-lA-8LG"/>
                                     <constraint firstItem="Cvs-HP-Ogf" firstAttribute="top" secondItem="X7u-uh-5zw" secondAttribute="top" id="ttJ-Ba-VVe"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y7f-HE-9WN">
+                                <rect key="frame" x="12" y="49" width="120" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="03v-wy-U14"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="0.99064625849999999" green="0.62000143809999997" blue="0.27859268710000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sjj-Eh-Qve">
+                                <rect key="frame" x="12" y="131" width="120" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="bvw-Jq-Xd7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="1" green="0.62000143809999997" blue="0.27859268710000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="8S5-wJ-orH"/>
                         <color key="backgroundColor" red="0.10588235294117647" green="0.14901960784313725" blue="0.2196078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -364,6 +442,7 @@
                             <constraint firstItem="abJ-d5-e1S" firstAttribute="trailing" secondItem="K4E-wj-8BH" secondAttribute="trailing" id="A6K-V3-moO"/>
                             <constraint firstItem="kGf-ed-N9b" firstAttribute="trailing" secondItem="UkC-gb-GVV" secondAttribute="trailing" id="AKu-Uq-gN3"/>
                             <constraint firstItem="Yfk-8H-o9J" firstAttribute="trailing" secondItem="FJF-cv-vmj" secondAttribute="trailing" id="Afk-ay-tQz"/>
+                            <constraint firstItem="Sjj-Eh-Qve" firstAttribute="top" secondItem="K4E-wj-8BH" secondAttribute="bottom" constant="6" id="CFo-Zg-K6S"/>
                             <constraint firstItem="kGf-ed-N9b" firstAttribute="leading" secondItem="UkC-gb-GVV" secondAttribute="leading" id="CQj-9h-KCY"/>
                             <constraint firstItem="K4E-wj-8BH" firstAttribute="trailing" secondItem="FJF-cv-vmj" secondAttribute="trailing" id="CYL-eu-8Sm"/>
                             <constraint firstItem="eIi-20-cVr" firstAttribute="top" secondItem="kGf-ed-N9b" secondAttribute="bottom" constant="2" id="ClU-Zp-Jbw"/>
@@ -373,10 +452,16 @@
                             <constraint firstItem="Yfk-8H-o9J" firstAttribute="top" secondItem="FJF-cv-vmj" secondAttribute="bottom" constant="2" id="OeQ-Wf-xeW"/>
                             <constraint firstItem="abJ-d5-e1S" firstAttribute="leading" secondItem="K4E-wj-8BH" secondAttribute="leading" id="WK5-rN-gDH"/>
                             <constraint firstItem="K4E-wj-8BH" firstAttribute="top" secondItem="8S5-wJ-orH" secondAttribute="top" id="YeI-RC-TyQ"/>
+                            <constraint firstItem="Sjj-Eh-Qve" firstAttribute="leading" secondItem="Y7f-HE-9WN" secondAttribute="leading" id="Zgv-PX-2lw"/>
                             <constraint firstItem="FJF-cv-vmj" firstAttribute="leading" secondItem="8S5-wJ-orH" secondAttribute="leading" id="baH-DX-hdk"/>
+                            <constraint firstItem="Sjj-Eh-Qve" firstAttribute="trailing" secondItem="Y7f-HE-9WN" secondAttribute="trailing" id="cZd-9O-Cev"/>
                             <constraint firstItem="abJ-d5-e1S" firstAttribute="top" secondItem="8S5-wJ-orH" secondAttribute="top" constant="73" id="caY-B9-0vX"/>
+                            <constraint firstItem="8S5-wJ-orH" firstAttribute="trailing" secondItem="Y7f-HE-9WN" secondAttribute="trailing" constant="261" id="gHX-VM-KbX"/>
                             <constraint firstItem="UkC-gb-GVV" firstAttribute="top" secondItem="Yfk-8H-o9J" secondAttribute="bottom" constant="2" id="ljy-gG-Zxt"/>
+                            <constraint firstItem="Y7f-HE-9WN" firstAttribute="leading" secondItem="8S5-wJ-orH" secondAttribute="leading" constant="12" id="pEQ-fw-bvY"/>
                             <constraint firstItem="kGf-ed-N9b" firstAttribute="top" secondItem="UkC-gb-GVV" secondAttribute="bottom" constant="2" id="qr1-hk-iMg"/>
+                            <constraint firstItem="Y7f-HE-9WN" firstAttribute="top" secondItem="kLA-6M-74M" secondAttribute="topMargin" constant="-10" id="sod-iZ-DI6"/>
+                            <constraint firstItem="Sjj-Eh-Qve" firstAttribute="top" secondItem="kLA-6M-74M" secondAttribute="top" constant="131" id="w7c-JG-00i"/>
                             <constraint firstItem="eIi-20-cVr" firstAttribute="leading" secondItem="kGf-ed-N9b" secondAttribute="leading" id="xK1-0n-iXx"/>
                             <constraint firstItem="8S5-wJ-orH" firstAttribute="trailing" secondItem="FJF-cv-vmj" secondAttribute="trailing" id="zoK-Aj-ztK"/>
                         </constraints>
@@ -384,12 +469,14 @@
                     <connections>
                         <outlet property="label1" destination="K4E-wj-8BH" id="fOH-n8-kUo"/>
                         <outlet property="label2" destination="abJ-d5-e1S" id="a9E-qT-NU0"/>
+                        <outlet property="lblCountry1" destination="Y7f-HE-9WN" id="cHy-Li-CMU"/>
+                        <outlet property="lblCountry2" destination="Sjj-Eh-Qve" id="q5y-r9-Qlh"/>
                         <segue destination="bXY-nt-Kec" kind="show" identifier="segueCountry" id="VBk-Xt-QFX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="102" y="4"/>
+            <point key="canvasLocation" x="101.5267175572519" y="3.5211267605633805"/>
         </scene>
         <!--Country Selection-->
         <scene sceneID="UTJ-vA-QHQ">
@@ -432,6 +519,68 @@
             <point key="canvasLocation" x="900" y="25.35211267605634"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="0At-gp-aa4">
+            <size key="intrinsicContentSize" width="27" height="23.666666666666668"/>
+        </designable>
+        <designable name="2ob-2J-GQA">
+            <size key="intrinsicContentSize" width="30" height="60"/>
+        </designable>
+        <designable name="Cvs-HP-Ogf">
+            <size key="intrinsicContentSize" width="20.333333333333332" height="22"/>
+        </designable>
+        <designable name="EU2-V7-d0o">
+            <size key="intrinsicContentSize" width="30" height="60"/>
+        </designable>
+        <designable name="F6r-80-jWW">
+            <size key="intrinsicContentSize" width="30" height="60"/>
+        </designable>
+        <designable name="FMA-HX-Ebw">
+            <size key="intrinsicContentSize" width="30" height="60"/>
+        </designable>
+        <designable name="Md0-Iv-noo">
+            <size key="intrinsicContentSize" width="30" height="60"/>
+        </designable>
+        <designable name="Smr-ym-1qO">
+            <size key="intrinsicContentSize" width="19.666666666666668" height="22"/>
+        </designable>
+        <designable name="UTK-1M-QrX">
+            <size key="intrinsicContentSize" width="23" height="22"/>
+        </designable>
+        <designable name="War-x2-kgK">
+            <size key="intrinsicContentSize" width="30" height="60"/>
+        </designable>
+        <designable name="X7u-uh-5zw">
+            <size key="intrinsicContentSize" width="24.666666666666668" height="24.666666666666668"/>
+        </designable>
+        <designable name="aZR-DV-J6R">
+            <size key="intrinsicContentSize" width="18" height="22"/>
+        </designable>
+        <designable name="cpf-fe-lmy">
+            <size key="intrinsicContentSize" width="30" height="60"/>
+        </designable>
+        <designable name="fsQ-zT-QQD">
+            <size key="intrinsicContentSize" width="30" height="60"/>
+        </designable>
+        <designable name="gcN-EQ-LDH">
+            <size key="intrinsicContentSize" width="23" height="22"/>
+        </designable>
+        <designable name="jnF-Dz-kY7">
+            <size key="intrinsicContentSize" width="30" height="60"/>
+        </designable>
+        <designable name="kZC-6E-N0p">
+            <size key="intrinsicContentSize" width="30" height="60"/>
+        </designable>
+        <designable name="lho-mB-ZrA">
+            <size key="intrinsicContentSize" width="30" height="66"/>
+        </designable>
+        <designable name="uOx-0T-ZiM">
+            <size key="intrinsicContentSize" width="30" height="60"/>
+        </designable>
+        <designable name="yKa-AW-YqV">
+            <size key="intrinsicContentSize" width="30" height="24.333333333333332"/>
+        </designable>
+    </designables>
     <resources>
         <image name="arrow.up.arrow.down" catalog="system" width="128" height="97"/>
         <image name="arrowshape.left.fill" catalog="system" width="128" height="104"/>
@@ -445,10 +594,10 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGray2Color">
-            <color red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGray4Color">
-            <color red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
