@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K4E-wj-8BH">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K4E-wj-8BH">
                                 <rect key="frame" x="119" y="50" width="274" height="75"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="75" id="wiK-YX-hJf"/>
@@ -26,7 +26,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="abJ-d5-e1S">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="abJ-d5-e1S">
                                 <rect key="frame" x="119" y="132" width="274" height="75"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="75" id="EgO-6b-maQ"/>
@@ -50,6 +50,9 @@
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="clearBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SD2-lf-aAC"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0At-gp-aa4" customClass="RoundButton" customModule="CurrenyConverter" customModuleProvider="target">
                                         <rect key="frame" x="83" y="0.0" width="75" height="75"/>
@@ -63,6 +66,9 @@
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="removeBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fq6-EF-M24"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yKa-AW-YqV" customClass="RoundButton" customModule="CurrenyConverter" customModuleProvider="target">
                                         <rect key="frame" x="175" y="0.0" width="75" height="75"/>
@@ -76,6 +82,9 @@
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="switchBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H43-v0-fst"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gcN-EQ-LDH" customClass="RoundButton" customModule="CurrenyConverter" customModuleProvider="target">
                                         <rect key="frame" x="278" y="0.0" width="75" height="75"/>
@@ -90,6 +99,9 @@
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="partitionBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g5o-zJ-BYA"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -128,6 +140,9 @@
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="btnClick4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f8j-8M-iuJ"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="War-x2-kgK" customClass="RoundButton" customModule="CurrenyConverter" customModuleProvider="target">
                                         <rect key="frame" x="83" y="0.0" width="75" height="75"/>
@@ -140,6 +155,9 @@
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="btnClick5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lyz-rG-7Xm"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FMA-HX-Ebw" customClass="RoundButton" customModule="CurrenyConverter" customModuleProvider="target">
                                         <rect key="frame" x="173" y="0.0" width="75" height="75"/>
@@ -152,6 +170,9 @@
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="btnClick6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kkR-kE-4gF"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UTK-1M-QrX" customClass="RoundButton" customModule="CurrenyConverter" customModuleProvider="target">
                                         <rect key="frame" x="273" y="8" width="75" height="75"/>
@@ -165,6 +186,9 @@
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="extractionBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AgM-1U-wCp"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -203,6 +227,9 @@
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="btnClick7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ahg-eh-dKN"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jnF-Dz-kY7" customClass="RoundButton" customModule="CurrenyConverter" customModuleProvider="target">
                                         <rect key="frame" x="83" y="0.0" width="75" height="75"/>
@@ -215,6 +242,9 @@
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="btnClick8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ujp-0p-oOh"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uOx-0T-ZiM" customClass="RoundButton" customModule="CurrenyConverter" customModuleProvider="target">
                                         <rect key="frame" x="173" y="0.0" width="75" height="75"/>
@@ -227,6 +257,9 @@
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="btnClick9:" destination="BYZ-38-t0r" eventType="touchUpInside" id="86Y-nm-NEy"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aZR-DV-J6R" customClass="RoundButton" customModule="CurrenyConverter" customModuleProvider="target">
                                         <rect key="frame" x="278" y="8" width="75" height="75"/>
@@ -239,6 +272,9 @@
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="additionBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yys-5A-mH1"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -278,6 +314,9 @@
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="btnClick1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FXM-1a-fJB"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F6r-80-jWW" customClass="RoundButton" customModule="CurrenyConverter" customModuleProvider="target">
                                         <rect key="frame" x="83" y="0.0" width="75" height="75"/>
@@ -290,6 +329,9 @@
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="btnClick2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TLx-KX-eHk"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fsQ-zT-QQD" customClass="RoundButton" customModule="CurrenyConverter" customModuleProvider="target">
                                         <rect key="frame" x="173" y="0.0" width="75" height="75"/>
@@ -302,6 +344,9 @@
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="btnClick3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vet-9T-53i"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Smr-ym-1qO" customClass="RoundButton" customModule="CurrenyConverter" customModuleProvider="target">
                                         <rect key="frame" x="274" y="13" width="75" height="75"/>
@@ -315,6 +360,9 @@
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="multiplicationBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZK3-bW-oLH"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -353,6 +401,9 @@
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="btnClick0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dJ2-Da-S8h"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lho-mB-ZrA" customClass="RoundButton" customModule="CurrenyConverter" customModuleProvider="target">
                                         <rect key="frame" x="83" y="0.0" width="75" height="75"/>
@@ -365,6 +416,9 @@
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="commaBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yq5-gx-9qA"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cvs-HP-Ogf" customClass="RoundButton" customModule="CurrenyConverter" customModuleProvider="target">
                                         <rect key="frame" x="287" y="0.0" width="75" height="75"/>
@@ -378,6 +432,9 @@
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="equalsBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="msE-pB-SgX"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X7u-uh-5zw" customClass="RoundButton" customModule="CurrenyConverter" customModuleProvider="target">
                                         <rect key="frame" x="187" y="0.0" width="75" height="75"/>
@@ -391,6 +448,9 @@
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="roundButton" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="percentBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hHv-Ds-2GR"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -471,19 +531,19 @@
                         <outlet property="label2" destination="abJ-d5-e1S" id="a9E-qT-NU0"/>
                         <outlet property="lblCountry1" destination="Y7f-HE-9WN" id="cHy-Li-CMU"/>
                         <outlet property="lblCountry2" destination="Sjj-Eh-Qve" id="q5y-r9-Qlh"/>
-                        <segue destination="bXY-nt-Kec" kind="show" identifier="segueCountry" id="VBk-Xt-QFX"/>
+                        <segue destination="bXY-nt-Kec" kind="presentation" identifier="segueCountry" modalPresentationStyle="fullScreen" id="VBk-Xt-QFX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="101.5267175572519" y="3.5211267605633805"/>
         </scene>
-        <!--Country Selection-->
+        <!--Country Selection View Controller-->
         <scene sceneID="UTJ-vA-QHQ">
             <objects>
-                <viewController id="bXY-nt-Kec" customClass="countrySelection" customModule="CurrenyConverter" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="bXY-nt-Kec" customClass="CountrySelectionViewController" customModule="CurrenyConverter" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pee-9H-IHw">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DÖVİZ KURLARI" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fQe-YP-h2T">
